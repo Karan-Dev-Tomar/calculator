@@ -24,7 +24,7 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e=="n"){
+                    if (e!="y"){
                         break;
                     }
             }
@@ -34,7 +34,7 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e=="n"){
+                    if (e!="y"){
                         break;
                     }
             }
@@ -44,7 +44,7 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e=="n"){
+                    if (e!="y"){
                         break;
                     }
             }
@@ -54,7 +54,7 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e=="n"){
+                    if (e!="y"){
                         break;
                     }
             }
@@ -75,7 +75,7 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e=="n"){
+                    if (e!="y"){
                         break;
                     }
             }
@@ -84,7 +84,7 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e=="n"){
+                    if (e!="y"){
                         break;
                     }
             }
