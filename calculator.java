@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class calculator{
     public static void main(String[] args) {
         System.out.println("WELCOME TO KARAN'S CALCULATOR");
+        System.out.println("testing GitHub");
         while(true){
             float a;
             char b;
