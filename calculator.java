@@ -3,13 +3,10 @@ import java.util.Scanner;
 public class calculator{
     public static void main(String[] args) {
         System.out.println("WELCOME TO KARAN'S CALCULATOR");
-        System.out.println("testing GitHub");
         while(true){
-            float a;
+            float a,c,d;
             char b;
-            float c;
             String e;
-            float d;
             System.out.print("enter your number: ");
             Scanner sc= new Scanner(System.in);
             a=sc.nextInt();
