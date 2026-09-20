@@ -22,9 +22,9 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e!="y"){
-                        break;
-                    }
+                if (e!="y"){
+                    break;
+                }
             }
             else if (b=='-'){
                 d=a-c;
@@ -32,9 +32,9 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e!="y"){
-                        break;
-                    }
+                if (e!="y"){
+                    break;
+                }
             }
             else if (b=='*'|| b=='x'){
                 d=a*c;
@@ -42,9 +42,9 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e!="y"){
-                        break;
-                    }
+                if (e!="y"){
+                    break;
+                }
             }
             else if (b=='/'){
                 d=a/c;
@@ -52,9 +52,9 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e!="y"){
-                        break;
-                    }
+                if (e!="y"){
+                    break;
+                }
             }
             else if(b=='p'){
                 d=a/c;
@@ -63,9 +63,9 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e!="y"||e!="Y"){
-                        break;
-                    }
+                if (e!="y"||e!="Y"){
+                    break;
+                }
             }
             else if (b=='%'){
                 d=a%c;
@@ -73,18 +73,18 @@ public class calculator{
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e!="y"){
-                        break;
-                    }
+                if (e!="y"){
+                    break;
+                }
             }
             else{
                 System.out.println("invalid input");
                 System.out.print("do you want to continue (y/n): ");
                 Scanner ou=new Scanner(System.in);
                 e=ou.nextLine();
-                    if (e!="y"){
-                        break;
-                    }
+                if (e!="y"){
+                    break;
+                }
             }
         }
     }
